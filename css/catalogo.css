@@ -1,0 +1,162 @@
+/* SECTION 1 – Intro e PDF */
+.catalogo_intro {
+    padding: 80px 0;
+    background-color: #f8f9fc;
+    color: #0f1a2f;
+  }
+  
+  .intro_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .intro_texto {
+    flex: 1 1 420px;
+  }
+  
+  .intro_texto h1 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro_texto p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: #4a4a4a;
+  }
+  
+  .btn_primary {
+    background-color: #0066ff;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    display: inline-block;
+    transition: background 0.3s;
+  }
+  
+  .btn_primary:hover {
+    background-color: #004ecb;
+  }
+  
+  .intro_pdf {
+    flex: 1 1 500px;
+  }
+  
+  .intro_pdf iframe {
+    width: 100%;
+    height: 450px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  /* SECTION 2 – Linhas de Produtos */
+  .catalogo_linhas {
+    padding: 80px 0;
+    background-color: #0f1a2f;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .catalogo_linhas h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .catalogo_linhas .sub {
+    font-size: 1rem;
+    color: #cbd5e1;
+    margin-bottom: 40px;
+  }
+  
+  .linhas_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+  }
+  
+  .linha_card {
+    background-color: #1c273a;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .linha_card:hover {
+    transform: translateY(-5px);
+    background-color: #1a2433;
+  }
+  
+  .linha_card i {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #0066ff;
+  }
+  
+  .linha_card h3 {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  /* SECTION 3 – CTA */
+  .catalogo_cta {
+    background-color: #e2ecff;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .cta_container h2 {
+    font-size: 2rem;
+    color: #0f1a2f;
+    margin-bottom: 15px;
+  }
+  
+  .cta_container p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  /* RESPONSIVO */
+  @media (max-width: 1024px) {
+    .intro_container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .intro_texto, .intro_pdf {
+      width: 100%;
+    }
+  
+    .intro_texto h1 {
+      font-size: 2rem;
+    }
+  
+    .catalogo_linhas h2 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .intro_pdf iframe {
+      height: 320px;
+    }
+  
+    .btn_primary {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .linhas_grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

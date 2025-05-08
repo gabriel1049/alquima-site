@@ -1,0 +1,106 @@
+/* ===== HERO CONTATO ===== */
+.contato_hero {
+    background: linear-gradient(135deg, #0f1a2f, #132c56);
+    padding: 80px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  .contato_hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .contato_hero p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* ===== CONTEÚDO GRID ===== */
+  .contato_conteudo {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  
+  .contato_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  
+  .contato_info h2 {
+    font-size: 1.8rem;
+    color: #0f1a2f;
+    margin-bottom: 15px;
+  }
+  
+  .contato_info p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* ===== MAPA ===== */
+  .contato_mapa iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  /* ===== FORMULÁRIO PADRÃO (igual do footer) ===== */
+  .contato_form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contato_form input,
+  .contato_form textarea {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+    width: 100%;
+  }
+  
+  .contato_form textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .contato_form button {
+    padding: 14px;
+    background-color: #0066ff;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contato_form button:hover {
+    background-color: #004bb7;
+  }
+  
+  /* ===== RESPONSIVO ===== */
+  @media (max-width: 1024px) {
+    .contato_grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  
+    .contato_hero h1 {
+      font-size: 2rem;
+    }
+  
+    .contato_hero p {
+      font-size: 1rem;
+    }
+  }
+  

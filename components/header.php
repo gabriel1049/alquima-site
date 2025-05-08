@@ -8,12 +8,14 @@
       </button>
       <ul id="menu" role="menu">
         <li><a href="/">Inicio</a></li>
-        <li><a href="/">Quem Somos</a></li>
-        <li><a href="/">Catálogo</a></li>
-        <li><a href="/">Produtos</a></li>
-        <li><a href="/">Contato</a></li>
+        <li><a href="/quem-somos">Quem Somos</a></li>
+        <li><a href="/catalogo">Catálogo</a></li>
+        <li><a href="/produtos">Produtos</a></li>
+        <li><a href="/contato">Contato</a></li>
       </ul>
     </nav>
 
-    <button class="btn_header_home" id="btn-home1">Solicitar orçamento</button>
+    <button class="btn_header_home" id="btn-home1">
+  <i class="fas fa-file-signature"></i> Solicitar orçamento
+</button>
 </header>

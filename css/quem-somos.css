@@ -1,0 +1,187 @@
+/* === SECTION 1: HERO === */
+.section_hero_quem {
+    padding: 80px 0;
+    background-color: #0f1a2f;
+    color: #ffffff;
+  }
+  
+  .hero_quem_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .hero_textos {
+    flex: 1 1 500px;
+  }
+  
+  .hero_textos h1 {
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero_textos p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #cbd5e1;
+  }
+  
+  .hero_imagem {
+    flex: 1 1 500px;
+  }
+  
+  .hero_imagem img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* === SECTION 2: HISTÓRIA / AUTORIDADE === */
+  .section_historia {
+    padding: 80px 0;
+    background-color: #f8f9fc;
+    color: #0f1a2f;
+  }
+  
+  .historia_container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .historia_container h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .historia_container p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  
+  .blocos_dados {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .dado_box {
+    flex: 1 1 200px;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  }
+  
+  .dado_box h3 {
+    font-size: 2rem;
+    color: #0066ff;
+    margin-bottom: 10px;
+  }
+  
+  .dado_box p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  /* === SECTION 3: MISSÃO / DIFERENCIAIS === */
+  .section_missao {
+    padding: 80px 0;
+    background-color: #e2ecff;
+    color: #0f1a2f;
+  }
+  
+  .missao_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .missao_textos {
+    flex: 1 1 500px;
+  }
+  
+  .missao_textos h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .missao_textos p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .missao_textos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .missao_textos li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0f1a2f;
+  }
+  
+  .missao_textos li i {
+    color: #0066ff;
+  }
+  
+  .missao_imagem {
+    flex: 1 1 500px;
+  }
+  
+  .missao_imagem img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 1024px) {
+    .missao_imagem,
+    .hero_textos,
+    .hero_imagem {
+        flex: 1 1 150px;
+    }
+    .section_hero_quem {
+        height: auto;
+    }
+    .hero_quem_container,
+    .missao_container {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px; /* Reduzido */
+    }
+  
+    .blocos_dados {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px; /* Reduzido */
+    }
+  
+    .dado_box {
+      width: 100%;
+    }
+  
+    .missao_textos ul {
+      text-align: left;
+    }
+  
+    .hero_textos h1,
+    .historia_container h2,
+    .missao_textos h2 {
+      font-size: 2rem;
+    }
+  }
+  
