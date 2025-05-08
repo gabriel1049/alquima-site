@@ -1,6 +1,6 @@
 <?php 
-$title = "Catálogo de Perfis de Alumínio";
-$description = "Confira o catálogo digital da Alquima e descubra os melhores perfis de alumínio para seu projeto.";
+$title = "Catálogo de Perfis de Alumínio - Alquima";
+$description = "Explore nosso catálogo completo de perfis de alumínio: fachadas, esquadrias, kit pia, linha gold e mais. Baixe em PDF agora.";
 
 include "../assets/head.php";
 ?>

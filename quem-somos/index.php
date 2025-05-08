@@ -1,6 +1,6 @@
 <?php 
-$title = "QUEM SOMOS";
-$description = "Distribuidora de Perfis de Alumínio e Acessórios para Construção Civil com excelência, inovação e agilidade.";
+$title = "Conheça a Alquima - Excelência em Alumínio";
+$description = "Mais de 10 anos de experiência em perfis de alumínio. Atendimento técnico, entrega ágil e soluções sob medida para o seu projeto.";
 
 include "../assets/head.php";
 ?>

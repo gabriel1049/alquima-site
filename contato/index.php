@@ -1,6 +1,6 @@
 <?php 
-$title = "Contato";
-$description = "Entre em contato com a Alquima e solicite um orçamento de perfis de alumínio sob medida.";
+$title = "Fale Conosco - Alquima Perfis de Alumínio";
+$description = "Entre em contato com a Alquima para orçamentos, dúvidas ou parcerias. Atendimento técnico e rápido para todo o Brasil.";
 
 include "../assets/head.php";
 ?>

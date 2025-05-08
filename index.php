@@ -1,6 +1,6 @@
 <?php 
-$title = "Alquima melhor site possivel";
-$description = "Alquima melhor description de todas";
+$title = "Distribuidora de Perfis de Alumínio - Alquima";
+$description = "Perfis de alumínio com qualidade, precisão e agilidade. Soluções completas para construção civil, arquitetura e indústrias.";
 
 include "./assets/head.php";
 ?>
