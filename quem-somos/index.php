@@ -68,5 +68,8 @@ include "../assets/head.php";
   </div>
 </section>
 
-<?php include "../components/footer.php"; ?>
+<?php 
+include "../components/footer.php"; 
+include "../chatbox.php";
+?>
 </body>

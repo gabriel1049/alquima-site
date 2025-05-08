@@ -11,8 +11,8 @@
     <div class="footer_col">
       <h4>Produtos</h4>
       <ul>
-        <li><a href="#">Perfis de Alumínio</a></li>
-        <li><a href="#">Acessórios</a></li>
+        <li><a href="/produtos">Perfis de Alumínio</a></li>
+        <li><a href="/produtos">Acessórios</a></li>
       </ul>
     </div>
 
@@ -20,7 +20,7 @@
     <div class="footer_col">
       <h4>Catálogos</h4>
       <ul>
-        <li><a href="#">Veja nossos catálogos</a></li>
+        <li><a href="/catalogo">Veja nossos catálogos</a></li>
       </ul>
     </div>
 
@@ -28,8 +28,8 @@
     <div class="footer_col">
       <h4>Contato</h4>
       <ul>
-        <li><a href="#">Fale Conosco</a></li>
-        <li><a href="#">Orçamentos</a></li>
+        <li><a href="/contato">Fale Conosco</a></li>
+        <li><a href="/contato">Orçamentos</a></li>
       </ul>
       <div class="footer_social">
         <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>

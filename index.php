@@ -18,8 +18,8 @@ include "./components/header.php";
       <h1>Distribuidora de Perfis de Alumínio</h1>
       <p>Tratamos cada <strong>cliente</strong> como sendo único<br> oferecendo as melhores <strong>condições</strong> possíveis<strong> para cada item orçado.</strong>.</p>
       <div class="banner_buttons">
-        <a href="#" class="btn_primary">Solicitar orçamento</a>
-        <a href="#" class="btn_outline">Ver Catálogo</a>
+        <a href="/contato" class="btn_primary">Solicitar orçamento</a>
+        <a href="/catalogo/" class="btn_outline">Ver Catálogo</a>
       </div>
     </div>
     <div class="banner_image">
@@ -220,6 +220,7 @@ include "./components/header.php";
 
 <?php
 include "./components/footer.php";
+include "./chatbox.php";
 ?>
 
 </body>

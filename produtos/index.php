@@ -150,7 +150,10 @@ include "../assets/head.php";
   </iframe>
 </section>
 
-<?php include "../components/footer.php"; ?>
+<?php 
+include "../components/footer.php"; 
+include "../chatbox.php";
+?>
 <script src="../js/produtos.js"></script>
 </body>
 

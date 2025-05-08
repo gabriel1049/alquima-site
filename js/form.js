@@ -62,3 +62,20 @@
      fecharForm();
    }, 800);
  });
+
+
+ document.addEventListener("DOMContentLoaded", function () {
+  const openChatBtn = document.getElementById("openChatBtn");
+  const chatBox = document.querySelector(".chatBox");
+  const sendChatBtn = document.getElementById("sendChatBtn");
+
+  openChatBtn.addEventListener("click", () => {
+    chatBox.classList.toggle("show");
+  });
+
+  sendChatBtn.addEventListener("click", function () {
+    const mensagem = document.getElementById("mensagemChat").value;
+    const url = `https://wa.me/5511946354481?text=${encodeURIComponent(mensagem)}`;
+    window.open(url, "_blank");
+  });
+});

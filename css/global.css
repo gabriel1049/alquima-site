@@ -287,3 +287,102 @@
     font-size: 1.5rem;
   }
 }
+
+
+
+/* chatbox */
+/* Botão flutuante fixo */
+.falar_especialista {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Botão principal */
+.falar_btn {
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s;
+}
+
+.falar_btn:hover {
+  background-color: #004bb7;
+}
+
+/* Caixa expansível */
+.chatBox {
+  display: none;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 280px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+  pointer-events: none;
+}
+
+/* Animação ao expandir */
+.chatBox.show {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.chatBox input,
+.chatBox textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.chatBox button {
+  background-color: #0066ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.chatBox button:hover {
+  background-color: #004bb7;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  .chatBox {
+    width: 100%;
+    right: 0;
+  }
+
+  .falar_especialista {
+    right: 10px;
+    bottom: 10px;
+  }
+}
