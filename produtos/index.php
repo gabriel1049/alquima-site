@@ -134,7 +134,7 @@ include "../assets/head.php";
       </div>
     </div>
     <div class="cta_imagem">
-      <img src="../img/cta-produtos.png" alt="Solicite um orçamento de perfis de alumínio">
+      <img src="../img/logo-site/logo-site-black.png" alt="Solicite um orçamento de perfis de alumínio">
     </div>
   </div>
 </section>

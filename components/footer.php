@@ -3,7 +3,7 @@
 
     <!-- COLUNA 1: Logo -->
     <div class="footer_logo">
-      <img src="./img/logo-site/logo.png" alt="Logo Alquima Branca">
+      <img src="/img/logo-site/logo.png" alt="Logo Alquima Branca">
       <p>&copy; 2025 Alquima — Todos os direitos reservados.</p>
     </div>
 

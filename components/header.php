@@ -1,6 +1,6 @@
 <header id="header" class="wrapper-padding">
     <div id="logo">
-        <img src="./img/logo-site/logo.png" alt="Logo Alquima" srcset="">
+        <img src="/img/logo-site/logo.png" alt="Logo Alquima" srcset="">
     </div>
     <nav id="nav">
       <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
