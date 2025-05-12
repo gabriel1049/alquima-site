@@ -39,13 +39,15 @@
     display: inline-block;
     transition: background 0.3s;
   }
-  
+  .fa-whatsapp{
+    margin-right: 6px;
+  }
   .btn_primary:hover {
     background-color: #004ecb;
   }
   
   .intro_pdf {
-    flex: 1 1 500px;
+    flex: 1 1 300px;
   }
   
   .intro_pdf iframe {
@@ -134,6 +136,10 @@
   
     .intro_texto, .intro_pdf {
       width: 100%;
+    }
+
+    .intro_pdf {
+      display: none;
     }
   
     .intro_texto h1 {

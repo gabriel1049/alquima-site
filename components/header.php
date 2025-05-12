@@ -16,6 +16,6 @@
     </nav>
 
     <button class="btn_header_home" id="btn-home1">
-  <i class="fas fa-file-signature"></i> Solicitar orçamento
+  <i class="fa-brands fa-whatsapp"></i> Solicitar orçamento
 </button>
 </header>

@@ -16,7 +16,7 @@ include "../assets/head.php";
       <p>Soluções sob medida para esquadrias, fachadas, estruturas e muito mais. Explore nossa linha completa com qualidade e resistência.</p>
     </div>
     <div class="hero_img">
-      <img src="../img/quem-somos-img.png" alt="Perfis de Alumínio Alquima">
+      <img src="../img/img-alquima3.png" alt="Perfis de Alumínio Alquima">
     </div>
   </div>
 </section>
@@ -100,23 +100,135 @@ include "../assets/head.php";
   </div>
 </div>
 
-  <!-- LINHA GOLD -->
   <div class="conteudo_categoria" id="linha-gold">
-    <h2>Linha Gold</h2>
-    <p>Desenvolvida para projetos de alto padrão, a Linha Gold oferece perfis sofisticados com excelente acabamento, resistência e estética refinada para portas, janelas e fachadas.</p>
-    <ul>
-      <li><strong>Modelos:</strong> LG-002, LG-027, LG-058, LG-083...</li>
-    </ul>
+  <h2>Linha Gold</h2>
+  <p>
+    Desenvolvida para projetos de alto padrão, a Linha Gold oferece perfis sofisticados com excelente acabamento, resistência e estética refinada para portas, janelas e fachadas.
+  </p>
+  <div class="tabela_wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Código</th><th>Ref.</th><th>Página</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>LG-002</td><td>32C-001</td><td>76</td></tr>
+        <tr><td>LG-003</td><td>32C-002</td><td>76</td></tr>
+        <tr><td>LG-026</td><td>32C-003</td><td>76</td></tr>
+        <tr><td>LG-027</td><td>32C-004</td><td>76</td></tr>
+        <tr><td>LG-028</td><td>32C-005</td><td>76</td></tr>
+        <tr><td>LG-006</td><td>32C-006</td><td>76</td></tr>
+        <tr><td>LG-044</td><td>32C-007</td><td>76</td></tr>
+        <tr><td>LG-045</td><td>32C-008</td><td>76</td></tr>
+        <tr><td>LG-046</td><td>32C-009</td><td>77</td></tr>
+        <tr><td>LG-048</td><td>32C-010</td><td>77</td></tr>
+        <tr><td>LG-049</td><td>32C-011</td><td>77</td></tr>
+        <tr><td>LG-056</td><td>32C-012</td><td>77</td></tr>
+        <tr><td>LG-007</td><td>32C-013</td><td>77</td></tr>
+        <tr><td>LG-004</td><td>32C-014</td><td>77</td></tr>
+        <tr><td>LG-017</td><td>32C-015</td><td>78</td></tr>
+        <tr><td>LG-019</td><td>32C-016</td><td>78</td></tr>
+        <tr><td>LG-021</td><td>32C-017</td><td>78</td></tr>
+        <tr><td>LG-024</td><td>32C-018</td><td>78</td></tr>
+        <tr><td>LG-050</td><td>32C-019</td><td>78</td></tr>
+        <tr><td>LG-058</td><td>32C-020</td><td>78</td></tr>
+        <tr><td>LG-051</td><td>32C-021</td><td>79</td></tr>
+        <tr><td>LG-055</td><td>32C-023</td><td>79</td></tr>
+        <tr><td>LG-076</td><td>32C-024</td><td>79</td></tr>
+        <tr><td>LG-085</td><td>32C-025</td><td>79</td></tr>
+        <tr><td>LG-068</td><td>32C-026</td><td>79</td></tr>
+        <tr><td>LG-043</td><td>32C-027</td><td>79</td></tr>
+        <tr><td>LG-053</td><td>32C-027</td><td>80</td></tr>
+        <tr><td>LG-018</td><td>32C-031</td><td>80</td></tr>
+        <tr><td>LG-022</td><td>32C-033</td><td>80</td></tr>
+        <tr><td>LG-020</td><td>32C-034</td><td>80</td></tr>
+        <tr><td>LG-015</td><td>32C-035</td><td>80</td></tr>
+        <tr><td>LG-047</td><td>32C-036</td><td>80</td></tr>
+        <tr><td>LG-063</td><td>32C-037</td><td>81</td></tr>
+        <tr><td>LG-042</td><td>32C-038</td><td>81</td></tr>
+        <tr><td>LG-016</td><td>32C-039</td><td>81</td></tr>
+        <tr><td>LG-061</td><td>32C-040</td><td>81</td></tr>
+        <tr><td>LG-023</td><td>32C-041</td><td>81</td></tr>
+        <tr><td>LG-074</td><td>32C-074</td><td>81</td></tr>
+        <tr><td>LG-062</td><td>32C-028</td><td>82</td></tr>
+        <tr><td>LG-066</td><td>32C-029</td><td>82</td></tr>
+        <tr><td>LG0-64</td><td>32C-030</td><td>82</td></tr>
+        <tr><td>LG-065</td><td>32C-078</td><td>82</td></tr>
+        <tr><td>LG-070</td><td>32C-070</td><td>83</td></tr>
+        <tr><td>LG-071</td><td>32C-071</td><td>83</td></tr>
+        <tr><td>LG-072</td><td>32C-072</td><td>83</td></tr>
+        <tr><td>LG-005</td><td>32C-075</td><td>83</td></tr>
+        <tr><td>LG-052</td><td>32C-076</td><td>83</td></tr>
+        <tr><td>LG-158</td><td>32C-158</td><td>84</td></tr>
+        <tr><td>LG-077</td><td>32C-077</td><td>84</td></tr>
+        <tr><td>LG-079</td><td>32C-079</td><td>84</td></tr>
+        <tr><td>LG-083</td><td>32C-083</td><td>84</td></tr>
+        <tr><td>LG-091</td><td>32C-091</td><td>84</td></tr>
+        <tr><td>LG-129</td><td>32C-129</td><td>85</td></tr>
+        <tr><td>LG-092</td><td>32C-092</td><td>85</td></tr>
+        <tr><td>SI-348</td><td>32C-348</td><td>85</td></tr>
+        <tr><td>SI-349</td><td>32C-349</td><td>85</td></tr>
+        <tr><td>LG-054</td><td>LG-054</td><td>85</td></tr>
+        <tr><td>BG-057</td><td>TBG-057</td><td>85</td></tr>
+      </tbody>
+    </table>
   </div>
+</div>
 
-  <!-- FACHADA -->
-  <div class="conteudo_categoria" id="fachada">
-    <h2>Perfis para Fachada</h2>
-    <p>Perfeitos para projetos arquitetônicos modernos, os perfis para fachada da Alquima unem design e desempenho estrutural, com acabamento impecável para obras comerciais e residenciais.</p>
-    <ul>
-      <li><strong>Modelos:</strong> FA-200, FA-204, FA-207, FA-294...</li>
-    </ul>
+
+ <!-- FACHADA -->
+<div class="conteudo_categoria" id="fachada">
+  <h2>Perfis para Fachada</h2>
+  <p>
+    Perfeitos para projetos arquitetônicos modernos, os perfis para fachada da Alquima unem design e desempenho estrutural, com acabamento impecável para obras comerciais e residenciais.
+  </p>
+  <div class="tabela_wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Código</th><th>Ref.</th><th>Página</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>FA-200</td><td>TFA-200</td><td>90</td></tr>
+        <tr><td>FA-204</td><td>TFA-204</td><td>90</td></tr>
+        <tr><td>FA-207</td><td>TFA-207</td><td>90</td></tr>
+        <tr><td>FA-206</td><td>TFA-206</td><td>90</td></tr>
+        <tr><td>FA-211</td><td>TFA-211</td><td>90</td></tr>
+        <tr><td>FA-233</td><td>TFA-233</td><td>90</td></tr>
+        <tr><td>FA-228</td><td>TFA-228</td><td>91</td></tr>
+        <tr><td>FA-230</td><td>TFA-230</td><td>91</td></tr>
+        <tr><td>FA-223</td><td>TFA-223</td><td>91</td></tr>
+        <tr><td>FA-232</td><td>TFA-232</td><td>91</td></tr>
+        <tr><td>FA-226</td><td>TFA-226</td><td>91</td></tr>
+        <tr><td>FA-227</td><td>TFA-227</td><td>92</td></tr>
+        <tr><td>FA-237</td><td>TFA-237</td><td>92</td></tr>
+        <tr><td>FA-231</td><td>TFA-231</td><td>92</td></tr>
+        <tr><td>FA-247</td><td>TFA-247</td><td>92</td></tr>
+        <tr><td>FA-235</td><td>TFA-235</td><td>92</td></tr>
+        <tr><td>FA-236</td><td>TFA-236</td><td>92</td></tr>
+        <tr><td>FA-238</td><td>TFA-238</td><td>92</td></tr>
+        <tr><td>FA-245</td><td>FA-245</td><td>92</td></tr>
+        <tr><td>FA-294</td><td>TFA-294</td><td>93</td></tr>
+        <tr><td>FA-243</td><td>TFA-243</td><td>93</td></tr>
+        <tr><td>FA-278</td><td>TFA-278</td><td>93</td></tr>
+        <tr><td>FA-397</td><td>TFA-397</td><td>93</td></tr>
+        <tr><td>FA-265</td><td>TFA-265</td><td>93</td></tr>
+        <tr><td>FA-299</td><td>TFA-299</td><td>93</td></tr>
+        <tr><td>FA-331</td><td>TFA-331</td><td>94</td></tr>
+        <tr><td>FA-375</td><td>TFA-375</td><td>94</td></tr>
+        <tr><td>FA-515</td><td>TFA-515</td><td>94</td></tr>
+        <tr><td>FA-258</td><td>TFA-258</td><td>94</td></tr>
+        <tr><td>FA-516</td><td>TFA-516</td><td>94</td></tr>
+        <tr><td>FA-255</td><td>TFA-255</td><td>94</td></tr>
+        <tr><td>FA-400</td><td>TFA-400</td><td>95</td></tr>
+        <tr><td>FA-347</td><td>TFA-347</td><td>95</td></tr>
+      </tbody>
+    </table>
   </div>
+</div>
+
 
   <!-- Adicione os outros conforme necessário seguindo a mesma lógica... -->
 

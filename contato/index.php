@@ -50,7 +50,7 @@ include "../assets/head.php";
         <input type="email" id="email" placeholder="E-mail" required>
         <input type="tel" id="telefone" placeholder="Telefone" required>
         <textarea id="mensagem" rows="4" placeholder="Mensagem" required></textarea>
-        <button type="submit" id="btnEnviar">ENVIAR MENSAGEM</button>
+        <button type="submit" id="btnEnviar"><i class="fa-brands fa-whatsapp"></i>ENVIAR MENSAGEM</button>
       </form>
     </div>
 

@@ -305,7 +305,7 @@
 
 /* Botão principal */
 .falar_btn {
-  background-color: #0066ff;
+  background-color: #128c7e;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -321,7 +321,7 @@
 }
 
 .falar_btn:hover {
-  background-color: #004bb7;
+  background-color: #128c7e;
 }
 
 /* Caixa expansível */
@@ -360,7 +360,7 @@
 }
 
 .chatBox button {
-  background-color: #0066ff;
+  background-color: #128c7e;
   color: white;
   border: none;
   padding: 10px;
@@ -371,7 +371,7 @@
 }
 
 .chatBox button:hover {
-  background-color: #004bb7;
+  background-color: #128c7e;
 }
 
 /* Responsivo */

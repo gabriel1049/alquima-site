@@ -2,6 +2,51 @@ body {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
+.quem_somos_video {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.video_container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* garante 400x400 responsivo */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.video_container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+/* Botão de play centralizado */
+.btn_play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.btn_play:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
 .banner_home {
     background-color: #0f1a2f; /* azul escuro estilo Dell */
     color: white;
@@ -74,7 +119,7 @@ body {
   
   .banner_image img {
     max-width: 100%;
-    height: auto;
+    height: 500px;
     object-fit: cover;
   }
   
@@ -83,10 +128,14 @@ body {
     .banner_container {
       flex-direction: column;
       text-align: center;
+      gap: 40px;
     }
   
     .banner_text, .banner_image {
       max-width: 100%;
+    }
+    .banner_buttons {
+      flex-direction: column;
     }
   }
 
@@ -133,6 +182,11 @@ body {
     width: 60px;
     height: 60px;
     object-fit: contain;
+    filter: brightness(0) invert(1); /* ícone branco */
+  }
+
+   .icon_diferencial i {
+    font-size: 40px;
     filter: brightness(0) invert(1); /* ícone branco */
   }
 
@@ -232,7 +286,7 @@ body {
   }
   
   .quem_somos_imagem {
-    flex: 1 1 500px;
+    flex: 1 1 300px;
   }
   
   .quem_somos_imagem img {

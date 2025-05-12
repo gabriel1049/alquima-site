@@ -74,7 +74,7 @@
   
   .contato_form button {
     padding: 14px;
-    background-color: #0066ff;
+    background-color: #128c7e;
     color: white;
     font-weight: 600;
     border: none;
@@ -85,7 +85,7 @@
   }
   
   .contato_form button:hover {
-    background-color: #004bb7;
+    background-color: #075e54;
   }
   
   /* ===== RESPONSIVO ===== */

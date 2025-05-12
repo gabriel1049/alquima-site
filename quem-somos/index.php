@@ -16,7 +16,7 @@ include "../assets/head.php";
       <p>Inovação e agilidade estão no nosso DNA. Há mais de 10 anos, oferecemos soluções em alumínio com alta performance para a construção civil.</p>
     </div>
     <div class="hero_imagem">
-      <img src="../img/quem-somos-img.png" alt="Equipe Alquima em ação">
+      <img src="../img/img-alquima1.png" alt="Equipe Alquima em ação">
     </div>
   </div>
 </section>
@@ -63,7 +63,7 @@ include "../assets/head.php";
       </ul>
     </div>
     <div class="missao_imagem">
-      <img src="../img/banner-home-page.png" alt="Perfis de alumínio Alquima">
+      <img src="../img/img-alquima3.png" alt="Equipe Alquima em ação">
     </div>
   </div>
 </section>
