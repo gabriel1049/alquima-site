@@ -16,7 +16,7 @@ include "./components/header.php";
     <div class="banner_text">
       <h4>A melhor</h4>
       <h1>Distribuidora de Perfis de Alumínio</h1>
-      <p>Desde de 2018Tratamos cada <strong>cliente</strong> como sendo único<br> oferecendo as melhores <strong>condições</strong> possíveis<strong> para cada item orçado.</strong>.</p>
+      <p>Desde de 2018 Tratamos cada <strong>cliente</strong> como sendo único<br> oferecendo as melhores <strong>condições</strong> possíveis<strong> para cada item orçado.</strong>.</p>
       <div class="banner_buttons">
         <a href="/contato" class="btn_primary"><i class="fa-brands fa-whatsapp"></i>Solicitar orçamento</a>
         <a href="/catalogo/" class="btn_outline">Ver Catálogo</a>
