@@ -26,7 +26,7 @@ include "../assets/head.php";
       <p><strong>Endereço:</strong> Av. Dalila, 677 - Vila Dalila, São Paulo - SP, 03520-000</p>
       <p><strong>Telefone:</strong> (11) 94635-4481</p>
       <p><strong>E-mail:</strong> contato@alquima.com.br</p>
-      <p><strong>Horário de atendimento:</strong> Segunda à Sexta das 08h às 18h</p>
+      <p><strong>Horário de atendimento:</strong> Segunda à Quinta das 08h às 18h <br> Sexta 08:00 ás 17:00</p>
     </div>
 
     <!-- MAPA GOOGLE -->

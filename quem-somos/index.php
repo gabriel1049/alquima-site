@@ -58,7 +58,7 @@ include "../assets/head.php";
       </p>
       <ul>
         <li><i class="fas fa-check-circle"></i> Estoque completo com linha GOLD, SUPREMA, FACHADA, entre outras</li>
-        <li><i class="fas fa-check-circle"></i> Atendimento personalizado para empresas de engenharia e construção</li>
+        <li><i class="fas fa-check-circle"></i> Atendimento personalizado para fabricantes de esquadrias</li>
         <li><i class="fas fa-check-circle"></i> Suporte técnico especializado para aplicações variadas</li>
       </ul>
     </div>

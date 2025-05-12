@@ -11,22 +11,20 @@ include "./assets/head.php";
 include "./components/header.php";
 ?>
 
+<!-- HTML -->
 <section class="banner_home wrapper-padding">
+  <div class="banner_overlay"></div>
   <div class="banner_container">
     <div class="banner_text">
       <h4>A melhor</h4>
       <h1>Distribuidora de Perfis de Alumínio</h1>
-      <p>Desde de 2018 Tratamos cada <strong>cliente</strong> como sendo único<br> oferecendo as melhores <strong>condições</strong> possíveis<strong> para cada item orçado.</strong>.</p>
+      <p>Desde de 2018 tratamos cada <strong>cliente</strong> como sendo único<br> oferecendo as melhores <strong>condições</strong> possíveis<strong> para cada item orçado.</strong></p>
       <div class="banner_buttons">
-        <a href="/contato" class="btn_primary"><i class="fa-brands fa-whatsapp"></i>Solicitar orçamento</a>
+        <a href="/contato" class="btn_primary"><i class="fa-brands fa-whatsapp"></i> Solicitar orçamento</a>
         <a href="/catalogo/" class="btn_outline">Ver Catálogo</a>
       </div>
     </div>
-    <div class="banner_image">
-      <img src="./img/banner-principal-novo3.png" alt="Banner destaque Alquima">
-    </div>
   </div>
-
 </section>
 
 
@@ -178,7 +176,7 @@ include "./components/header.php";
         <i class="fas fa-phone-alt"></i>
         <div>
           <strong>Telefone</strong>
-          <p>2741-1508</p>
+          <p>(11) 2741-1508</p>
         </div>
       </div>
 
