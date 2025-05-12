@@ -37,7 +37,7 @@ include "../assets/head.php";
         <p>Clientes atendidos</p>
       </div>
       <div class="dado_box">
-        <h3>+10</h3>
+        <h3>+7</h3>
         <p>Anos de experiência</p>
       </div>
       <div class="dado_box">

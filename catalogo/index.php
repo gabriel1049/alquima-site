@@ -35,18 +35,18 @@ include "../assets/head.php";
   <div class="linhas_grid">
     <?php
     $linhas = [
-      "Linha GOLD" => "fa-award",
-      "Linha SUPREMA" => "fa-shield-alt",
-      "FACHADA" => "fa-city",
-      "Linha 16 / 25 / 30" => "fa-layer-group",
-      "Guarda-corpo" => "fa-grip-lines-vertical",
-      "Lambris" => "fa-border-style",
-      "Sacadas" => "fa-door-open",
-      "Portões" => "fa-door-closed",
-      "Kit Pia" => "fa-sink",
-      "Engenharia" => "fa-drafting-compass",
-      "Tubos e Barras" => "fa-cubes",
-      "Tela Mosquiteiro" => "fa-bug"
+      "Linha GOLD" => "",
+      "Linha SUPREMA" => "",
+      "FACHADA" => "",
+      "Linha 16 / 25 / 30 / 42" => "",
+      "Guarda-corpo" => "",
+      "Lambris" => "",
+      "Sacadas" => "",
+      "Portões" => "",
+      "Kit Pia" => "",
+      "Engenharia" => "",
+      "Tubos e Barras" => "",
+      "Tela Mosquiteiro" => ""
     ];
     foreach ($linhas as $linha => $icone) {
       echo "

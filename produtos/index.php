@@ -30,11 +30,11 @@ include "../assets/head.php";
     <button class="filtro_btn" data-target="cantoneiras">Cantoneiras</button>
     <button class="filtro_btn" data-target="linha-gold">Linha Gold</button>
     <button class="filtro_btn" data-target="fachada">Fachada</button>
-    <button class="filtro_btn" data-target="engenharia">Engenharia</button>
+    <!-- <button class="filtro_btn" data-target="engenharia">Engenharia</button>
     <button class="filtro_btn" data-target="kit-pia">Kit Pia</button>
     <button class="filtro_btn" data-target="lambril">Lambris</button>
     <button class="filtro_btn" data-target="guarda-corpo">Guarda Corpo</button>
-    <button class="filtro_btn" data-target="telas">Tela Mosquiteira</button>
+    <button class="filtro_btn" data-target="telas">Tela Mosquiteira</button> -->
   </div>
 </section>
 
