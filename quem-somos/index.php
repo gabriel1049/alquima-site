@@ -1,6 +1,6 @@
 <?php 
-$title = "Conheça a Alquima - Excelência em Alumínio";
-$description = "Mais de 10 anos de experiência em perfis de alumínio. Atendimento técnico, entrega ágil e soluções sob medida para o seu projeto.";
+$title = "Fabricação própria de perfis de alumínio";
+$description = "Referência em produção de perfis sob medida com tecnologia e acabamento de excelência. Conheça nossa história e estrutura.";
 
 include "../assets/head.php";
 ?>

@@ -1,6 +1,6 @@
 <?php 
-$title = "Perfis de Alumínio para Esquadrias e Fachadas";
-$description = "Perfis de alumínio Alquima: tubos, barras, cantoneiras, linha gold, fachada e muito mais. Qualidade e resistência em cada perfil.";
+$title = "Perfis de alumínio: modelos e preços atualizados";
+$description = "Veja a linha completa de perfis de alumínio com especificações técnicas e preços acessíveis. Estoque variado e pronta entrega.";
 
 include "../assets/head.php";
 ?>

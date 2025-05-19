@@ -1,6 +1,6 @@
 <?php 
-$title = "Distribuidora de Perfis de Alumínio - Alquima";
-$description = "Perfis de alumínio com qualidade, precisão e agilidade. Soluções completas para construção civil, arquitetura e indústrias.";
+$title = "Alquima | Loja e distribuidora de perfis de alumínio";
+$description = "Perfis de alumínio com padrão industrial e entrega nacional. Qualidade, variedade e estoque pronto direto da distribuidora.";
 
 include "./assets/head.php";
 ?>
