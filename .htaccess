@@ -6,7 +6,7 @@ RewriteCond %{HTTP_HOST} ^www\.alquima\.com\.br$ [NC,OR]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://alquima.com.br/ [R=301,L]
 
-RewriteRule ^(esquadrias-de-aluminio|envidracamento-de-sacadas|janela-de-aluminio|perfil-de-aluminio|produtos/linha-suprema|escadas-de-aluminio|portas-e-janelas-de-aluminio-direto-da-fabrica|arremates-de-aluminio|guarda-corpo|perfil-de-aluminio-para-portas|linha-suprema|portao-de-aluminio|corrimao-de-aluminio|perfil-de-aluminio-para-vidro|box-aluminio|contramarco|esquadrias-de-aluminio-sob-medida|porta-de-aluminio|contato|produtos/perfil|home-5|produtos|perfil-aluminio-batente-porta|produtos/fachada|perfil-aluminio-tela-mosquiteiro|conheca-producao-tubos-aluminio|perfil-de-aluminio-quadrado|conexoes-de-aluminio|perfil-de-aluminio-redondo|produtos/contramarco|cantoneira-de-aluminio|home)/?$ https://alquima.com.br/ [R=301,L]
+RewriteRule ^(esquadrias-de-aluminio|envidracamento-de-sacadas|janela-de-aluminio|perfil-de-aluminio|linha-suprema|escadas-de-aluminio|portas-e-janelas-de-aluminio-direto-da-fabrica|arremates-de-aluminio|guarda-corpo|perfil-de-aluminio-para-portas|linha-suprema|portao-de-aluminio|corrimao-de-aluminio|perfil-de-aluminio-para-vidro|box-aluminio|contramarco|esquadrias-de-aluminio-sob-medida|porta-de-aluminio|contato|produtos/perfil|home-5|produtos|perfil-aluminio-batente-porta|produtos/fachada|perfil-aluminio-tela-mosquiteiro|conheca-producao-tubos-aluminio|perfil-de-aluminio-quadrado|conexoes-de-aluminio|perfil-de-aluminio-redondo|produtos/contramarco|cantoneira-de-aluminio|home)/?$ https://alquima.com.br/ [R=301,L]
 
 # Corrige problemas com CSS/JS/Imagens quebradas
 RewriteCond %{REQUEST_FILENAME} !-f
