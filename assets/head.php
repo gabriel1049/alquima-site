@@ -14,5 +14,15 @@
     <link rel="stylesheet" href="../css/global.css">
 
     <meta name="description" content=<?= $description?>>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HK4LCJ5G0L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HK4LCJ5G0L');
+</script>
     <title><?= $title?></title>
 </head>
