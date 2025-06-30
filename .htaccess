@@ -1,12 +1,17 @@
 # Habilita a reescrita de URLs
 RewriteEngine On
 
-# REDIRECIONA URLs ANTIGAS PARA A HOME
+# REDIRECIONA URLs com www ou sem HTTPS para a versão canônica
 RewriteCond %{HTTP_HOST} ^www\.alquima\.com\.br$ [NC,OR]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://alquima.com.br/ [R=301,L]
 
-RewriteRule ^(esquadrias-de-aluminio|envidracamento-de-sacadas|janela-de-aluminio|perfil-de-aluminio|linha-suprema|escadas-de-aluminio|portas-e-janelas-de-aluminio-direto-da-fabrica|arremates-de-aluminio|guarda-corpo|perfil-de-aluminio-para-portas|linha-suprema|portao-de-aluminio|corrimao-de-aluminio|perfil-de-aluminio-para-vidro|box-aluminio|contramarco|esquadrias-de-aluminio-sob-medida|porta-de-aluminio|contato|produtos/.+|perfil-aluminio-batente-porta|produtos/fachada|perfil-aluminio-tela-mosquiteiro|conheca-producao-tubos-aluminio|perfil-de-aluminio-quadrado|conexoes-de-aluminio|perfil-de-aluminio-redondo|produtos/contramarco|cantoneira-de-aluminio|home)/?$ https://alquima.com.br/ [R=301,L]
+# EXCEÇÃO: Não redirecionar /produtos ou /produtos/
+RewriteCond %{REQUEST_URI} ^/produtos/?$ [NC]
+RewriteRule ^ - [L]
+
+# REDIRECIONA URLs ANTIGAS PARA A HOME
+RewriteRule ^(esquadrias-de-aluminio|envidracamento-de-sacadas|janela-de-aluminio|perfil-de-aluminio|linha-suprema|escadas-de-aluminio|portas-e-janelas-de-aluminio-direto-da-fabrica|arremates-de-aluminio|guarda-corpo|perfil-de-aluminio-para-portas|portao-de-aluminio|corrimao-de-aluminio|perfil-de-aluminio-para-vidro|box-aluminio|contramarco|esquadrias-de-aluminio-sob-medida|porta-de-aluminio|contato|produtos/.+|perfil-aluminio-batente-porta|perfil-aluminio-tela-mosquiteiro|conheca-producao-tubos-aluminio|perfil-de-aluminio-quadrado|conexoes-de-aluminio|perfil-de-aluminio-redondo|produtos/contramarco|cantoneira-de-aluminio|home)/?$ https://alquima.com.br/ [R=301,L]
 
 # Corrige problemas com CSS/JS/Imagens quebradas
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -40,6 +45,6 @@ AddDefaultCharset UTF-8
   AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/x-javascript text/javascript
 </IfModule>
 
-# Redireciona para HTTPS (opcional - só se o certificado SSL estiver instalado)
+# Redireciona para HTTPS (opcional - já incluso acima)
 # RewriteCond %{HTTPS} off
 # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
