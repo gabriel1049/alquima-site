@@ -10,7 +10,7 @@
         <li><a href="/">Inicio</a></li>
         <li><a href="/quem-somos">Quem Somos</a></li>
         <li><a href="/catalogo">Catálogo</a></li>
-        <li><a href="/produtos">Produtos</a></li>
+        <li><a href="/produto">Produtos</a></li>
         <li><a href="/contato">Contato</a></li>
         <li><a href="https://blog.alquima.com.br/">Blog</a></li>
       </ul>
