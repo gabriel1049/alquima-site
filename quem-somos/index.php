@@ -8,6 +8,13 @@ include "../assets/head.php";
 <body>
 <?php include "../components/header.php"; ?>
 
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4JFMVJB"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <!-- SECTION 1 - HERO COM IMAGEM E FRASE IMPACTANTE -->
 <section class="section_hero_quem wrapper-padding">
   <div class="hero_quem_container">
